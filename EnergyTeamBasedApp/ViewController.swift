@@ -9,10 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var Challenges: Challenges?
+    var Tips: Tips?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        Challenges = JSONLoader.loadChallenges(jsonFileName: "challenges")
+        Tips = JSONLoader.loadTips(jsonFileName: "tips")
+
+        if Challenges == nil {
+            print("Unable to load and parse challenges.json")
+        } else {
+            print("challenges.json successfully loaded and parsed.")
+        }
+        
+        if Tips == nil {
+            print("Unable to load and parse tips.json")
+        } else {
+            print("tips successfully loaded and parsed.")
+        }
+        
+        print(Tips)
+        print(Challenges)
     }
 
 
