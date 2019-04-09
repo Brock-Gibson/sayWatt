@@ -15,9 +15,10 @@
 		5BA787CB2256795500D14415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA787C92256795500D14415 /* LaunchScreen.storyboard */; };
 		5BA787D62256795500D14415 /* EnergyTeamBasedAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA787D52256795500D14415 /* EnergyTeamBasedAppTests.swift */; };
 		5BA787E12256795500D14415 /* EnergyTeamBasedAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA787E02256795500D14415 /* EnergyTeamBasedAppUITests.swift */; };
-		5BA787EF22567FC000D14415 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA787EE22567FC000D14415 /* Tip.swift */; };
-		5BA787F122567FC900D14415 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA787F022567FC900D14415 /* Challenge.swift */; };
-		5BA787F42256820400D14415 /* EnergyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA787F32256820400D14415 /* EnergyType.swift */; };
+		5BA787EF22567FC000D14415 /* TipsChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA787EE22567FC000D14415 /* TipsChallenges.swift */; };
+		5BA787F62256837000D14415 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BA787F52256837000D14415 /* tips.json */; };
+		5BA787F82256837F00D14415 /* challenges.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BA787F72256837F00D14415 /* challenges.json */; };
+		5BA787FA2257CED300D14415 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA787F92257CED300D14415 /* JSONLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +53,10 @@
 		5BA787DC2256795500D14415 /* EnergyTeamBasedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnergyTeamBasedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA787E02256795500D14415 /* EnergyTeamBasedAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyTeamBasedAppUITests.swift; sourceTree = "<group>"; };
 		5BA787E22256795500D14415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BA787EE22567FC000D14415 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
-		5BA787F022567FC900D14415 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
-		5BA787F32256820400D14415 /* EnergyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyType.swift; sourceTree = "<group>"; };
+		5BA787EE22567FC000D14415 /* TipsChallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsChallenges.swift; sourceTree = "<group>"; };
+		5BA787F52256837000D14415 /* tips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		5BA787F72256837F00D14415 /* challenges.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = challenges.json; sourceTree = "<group>"; };
+		5BA787F92257CED300D14415 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,9 +140,10 @@
 		5BA787F2225681F500D14415 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5BA787EE22567FC000D14415 /* Tip.swift */,
-				5BA787F022567FC900D14415 /* Challenge.swift */,
-				5BA787F32256820400D14415 /* EnergyType.swift */,
+				5BA787EE22567FC000D14415 /* TipsChallenges.swift */,
+				5BA787F92257CED300D14415 /* JSONLoader.swift */,
+				5BA787F52256837000D14415 /* tips.json */,
+				5BA787F72256837F00D14415 /* challenges.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -249,7 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA787F82256837F00D14415 /* challenges.json in Resources */,
 				5BA787CB2256795500D14415 /* LaunchScreen.storyboard in Resources */,
+				5BA787F62256837000D14415 /* tips.json in Resources */,
 				5BA787C82256795500D14415 /* Assets.xcassets in Resources */,
 				5BA787C32256795400D14415 /* Main.storyboard in Resources */,
 			);
@@ -276,12 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA787FA2257CED300D14415 /* JSONLoader.swift in Sources */,
 				5BA787C62256795400D14415 /* EnergyTeamBasedApp.xcdatamodeld in Sources */,
-				5BA787F42256820400D14415 /* EnergyType.swift in Sources */,
-				5BA787EF22567FC000D14415 /* Tip.swift in Sources */,
+				5BA787EF22567FC000D14415 /* TipsChallenges.swift in Sources */,
 				5BA787C02256795400D14415 /* ViewController.swift in Sources */,
 				5BA787BE2256795400D14415 /* AppDelegate.swift in Sources */,
-				5BA787F122567FC900D14415 /* Challenge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
