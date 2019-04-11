@@ -19,6 +19,10 @@
 		5BA787F62256837000D14415 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BA787F52256837000D14415 /* tips.json */; };
 		5BA787F82256837F00D14415 /* challenges.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BA787F72256837F00D14415 /* challenges.json */; };
 		5BA787FA2257CED300D14415 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA787F92257CED300D14415 /* JSONLoader.swift */; };
+		5BAADD14225FB825002B1FEC /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAADD10225FB825002B1FEC /* Profile+CoreDataClass.swift */; };
+		5BAADD15225FB825002B1FEC /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAADD11225FB825002B1FEC /* Profile+CoreDataProperties.swift */; };
+		5BAADD16225FB825002B1FEC /* EnergyBill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAADD12225FB825002B1FEC /* EnergyBill+CoreDataClass.swift */; };
+		5BAADD17225FB825002B1FEC /* EnergyBill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAADD13225FB825002B1FEC /* EnergyBill+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		5BA787F52256837000D14415 /* tips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		5BA787F72256837F00D14415 /* challenges.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = challenges.json; sourceTree = "<group>"; };
 		5BA787F92257CED300D14415 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		5BAADD10225FB825002B1FEC /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5BAADD11225FB825002B1FEC /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5BAADD12225FB825002B1FEC /* EnergyBill+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyBill+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5BAADD13225FB825002B1FEC /* EnergyBill+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyBill+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +121,6 @@
 				5BA787C72256795500D14415 /* Assets.xcassets */,
 				5BA787C92256795500D14415 /* LaunchScreen.storyboard */,
 				5BA787CC2256795500D14415 /* Info.plist */,
-				5BA787C42256795400D14415 /* EnergyTeamBasedApp.xcdatamodeld */,
 				5BA787F2225681F500D14415 /* Model */,
 			);
 			path = EnergyTeamBasedApp;
@@ -140,6 +147,11 @@
 		5BA787F2225681F500D14415 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BAADD10225FB825002B1FEC /* Profile+CoreDataClass.swift */,
+				5BAADD11225FB825002B1FEC /* Profile+CoreDataProperties.swift */,
+				5BAADD12225FB825002B1FEC /* EnergyBill+CoreDataClass.swift */,
+				5BAADD13225FB825002B1FEC /* EnergyBill+CoreDataProperties.swift */,
+				5BA787C42256795400D14415 /* EnergyTeamBasedApp.xcdatamodeld */,
 				5BA787EE22567FC000D14415 /* TipsChallenges.swift */,
 				5BA787F92257CED300D14415 /* JSONLoader.swift */,
 				5BA787F52256837000D14415 /* tips.json */,
@@ -281,10 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAADD17225FB825002B1FEC /* EnergyBill+CoreDataProperties.swift in Sources */,
 				5BA787FA2257CED300D14415 /* JSONLoader.swift in Sources */,
+				5BAADD14225FB825002B1FEC /* Profile+CoreDataClass.swift in Sources */,
+				5BAADD16225FB825002B1FEC /* EnergyBill+CoreDataClass.swift in Sources */,
 				5BA787C62256795400D14415 /* EnergyTeamBasedApp.xcdatamodeld in Sources */,
 				5BA787EF22567FC000D14415 /* TipsChallenges.swift in Sources */,
 				5BA787C02256795400D14415 /* ViewController.swift in Sources */,
+				5BAADD15225FB825002B1FEC /* Profile+CoreDataProperties.swift in Sources */,
 				5BA787BE2256795400D14415 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
