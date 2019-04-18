@@ -14,6 +14,7 @@
 		5B034B8F22567A5F003447CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B034B8D22567A5F003447CC /* LaunchScreen.storyboard */; };
 		5B034B9A22567A5F003447CC /* SayWattTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B034B9922567A5F003447CC /* SayWattTests.swift */; };
 		5B034BA522567A5F003447CC /* SayWattUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B034BA422567A5F003447CC /* SayWattUITests.swift */; };
+		5BE4C25D2268D8B60075A94E /* tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4C25C2268D8B60075A94E /* tips.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5B034BA022567A5F003447CC /* SayWattUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayWattUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B034BA422567A5F003447CC /* SayWattUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayWattUITests.swift; sourceTree = "<group>"; };
 		5B034BA622567A5F003447CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE4C25C2268D8B60075A94E /* tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tips.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				5B034B8622567A5E003447CC /* ViewController.swift */,
 				5B034B8822567A5E003447CC /* Main.storyboard */,
 				5B034B8B22567A5F003447CC /* Assets.xcassets */,
+				5BE4C25C2268D8B60075A94E /* tips.png */,
 				5B034B8D22567A5F003447CC /* LaunchScreen.storyboard */,
 				5B034B9022567A5F003447CC /* Info.plist */,
 			);
@@ -193,13 +196,16 @@
 				TargetAttributes = {
 					5B034B8022567A5E003447CC = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					5B034B9422567A5F003447CC = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 5B034B8022567A5E003447CC;
 					};
 					5B034B9F22567A5F003447CC = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 5B034B8022567A5E003447CC;
 					};
 				};
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B034B8F22567A5F003447CC /* LaunchScreen.storyboard in Resources */,
+				5BE4C25D2268D8B60075A94E /* tips.png in Resources */,
 				5B034B8C22567A5F003447CC /* Assets.xcassets in Resources */,
 				5B034B8A22567A5E003447CC /* Main.storyboard in Resources */,
 			);
@@ -440,7 +447,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jocali.SayWatt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jocali.SayWatt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -476,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jocali.SayWattTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SayWatt.app/SayWatt";
 			};
@@ -496,7 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jocali.SayWattTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SayWatt.app/SayWatt";
 			};
@@ -515,7 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jocali.SayWattUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SayWatt;
 			};
@@ -534,7 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jocali.SayWattUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SayWatt;
 			};

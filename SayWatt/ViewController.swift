@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let layer = CAGradientLayer()
+        layer.frame = view.bounds
+        layer.colors = [UIColor.]
     }
 
 
