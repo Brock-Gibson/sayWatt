@@ -1,0 +1,90 @@
+{
+    "status" : "ok",
+    "tips" : [
+        {
+            "description": "Only do full loads when washing your dishes.",
+            "category": "water"
+        },
+        {
+            "description": "Use the energy saver mode on your dishwasher.",
+            "category": "water"
+        },
+        {
+            "description": "Take shorter showers.",
+            "category": "water"
+        },
+        {
+            "description": "Consolidate loads of laundry.",
+            "category": "water"
+        },
+        {
+            "description": "Reduce the temperature setting on your water heater to 120 degrees or less.",
+            "category": "water"
+        },
+        {
+            "description": "Wash clothes in cool or cold water whenever possible.",
+            "category": "water"
+        },
+        {
+            "description": "Ride a bike to the store or work today",
+            "category": "gas"
+        },
+        {
+            "description": "Adjust your thermostat throughout the day.",
+            "category": "gas"
+        },
+        {
+            "description": "Don’t charge your appliances unnecessarily throughout the day.",
+            "category": "energy"
+        },
+        {
+            "description": "Save electricity by plugging appliances into a power strip and turning them off completely when not in use, including your computer.",
+            "category": "energy"
+        },
+        {
+            "description": "Turn off the lights. Your TV or computer screen provides a cozy glow, so turn off other lights if you don’t need them",
+            "category": "energy"
+        },
+        {
+            "description": "Unplug unused appliances.",
+            "category": "energy"
+        },
+        {
+            "description": "Change your furnace filter every 1-2 months.",
+            "category": "energy"
+        },
+        {
+            "description": "Set thermostat settings as high as possible while maintaining reasonable comfort levels while you’re home and 84 degrees when you’re away",
+            "category": "energy"
+        },
+        {
+            "description": "Set thermostat settings at 68 degrees while you’re home and 60 degrees when you’re away.",
+            "category": "energy"
+        },
+        {
+            "description": "Use blinds and curtains strategically: they can help heat or cool your room and can be sources of light.",
+            "category": "energy"
+        },
+        {
+            "description": "Clean your refrigerator coils in the spring.",
+            "category": "energy"
+        },
+        {
+            "description": "Set the temperature for your refrigerator to 37 to 40 F degrees and 5 F degrees for the freezer.",
+            "category": "energy"
+        },
+        {
+            "description": "Buy a reusable water bottle.",
+            "category": "lifestyle"
+        },
+        {
+            "description": "Reuse plastic water bottles.",
+            "category": "lifestyle"
+        },
+        {
+            "description": "Purchase local products when possible.",
+            "category": "lifestyle"
+        },
+
+    ]
+}

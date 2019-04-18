@@ -1,0 +1,130 @@
+{
+    "status" : "ok",
+    "challenges" : [
+        {
+            "description" : "Turn off the water when brushing your teeth. ",
+            "category" : "water",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Take a 3-minute shower today",
+            "category" : "water",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Have no leaky faucets in your house.",
+            "category" : "water",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Use rainwater to water your plants.",
+            "category" : "water",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Replace your toilet with a water-efficient toilet. ",
+            "category" : "water",
+            "difficulty" : 3
+        },
+        {
+            "description" : "Install a high-efficiency showerhead. ",
+            "category" : "water",
+            "difficulty" : 3
+        },
+        {
+            "description" : "Invite your friends to walk with you to lunch or dinner today. ",
+            "category" : "gas",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Carpool or take public transportation everywhere you go today.",
+            "category" : "gas",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Add Attic Insulation. ",
+            "category" : "gas",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Use an electric car. ",
+            "category" : "gas",
+            "difficulty" : 3
+        },
+        {
+            "description" : "Air dry your hair. ",
+            "category" : "energy",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Read by candlelight tonight (Don’t catch your book on fire).",
+            "category" : "energy",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Use natural light from 8am-5pm. ",
+            "category" : "energy",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Air dry dishes instead of heated dry in the dishwasher. ",
+            "category" : "energy",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Don’t watch TV today. ",
+            "category" : "energy",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Change bulbs to LED bulbs.",
+            "category" : "energy",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Clean or replace all the filters in your home if you haven’t recently. ",
+            "category" : "energy",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Cut Down Drying Time With Dryer Balls.",
+            "category" : "energy",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Check the insulation in your attic if you have one.",
+            "category" : "energy",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Install a programmable thermostat.",
+            "category" : "energy",
+            "difficulty" : 3
+        },
+        {
+            "description" : "Weatherstrip spaces around doors and windows.",
+            "category" : "energy",
+            "difficulty" : 3
+        },
+        {
+            "description" : "Get a home ENERGY STAR assessment--it’s free in Columbia. ",
+            "category" : "energy",
+            "difficulty" : 3
+        },
+        {
+            "description" : "If it’s a nice day, spend your free time outside today instead of watching a movie.",
+            "category" : "lifestyle",
+            "difficulty" : 1
+        },
+        {
+            "description" : "Choose Cloth Over Paper. ",
+            "category" : "lifestyle",
+            "difficulty" : 2
+        },
+        {
+            "description" : "Invite friends over for a sustainable dinner tonight--use real plates and silverware and cook with local ingredients.",
+            "category" : "lifestyle",
+            "difficulty" : 3
+        },
+    ]
+}
